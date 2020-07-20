@@ -78,7 +78,7 @@ Uses image segmentation to identify image regions. These image regions are class
 -sensitive regions: the colors/appereance of these regions are typically within a specific range and unusual colors would attract the attention of a human observer. Here we have 4 categories of sensitive regions: person, sky, vegetation(grass, trees, etc), water(rivers, sea, lake, swimming pool, etc).
 -non-sensitive regions: may have their colors modified withing an arbitrary range and still look natural.<img src="C:\Users\Ionuy\Desktop\object_segmentation.PNG" style="zoom:75%;" />
 
-![ColorFool- semantic segmentation](./imgs/semantic_segmentation.png)
+![ColorFool- semantic segmentation](./imgs/semantic_segmentation.PNG)
 
 Firstly, an image $\bold{X}$ is decomposed in $K$ semantic regions:
 $$

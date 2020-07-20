@@ -101,7 +101,7 @@ After identifying these two sets of regions , the colors of the regions are modi
 
 The sensitive regions are modified and the adversarial set is generated according to the following formula :
 $$
-\dot{\mathbb{S}} =  \{ \dot{S_k}: \dot{S_k} = \gamma({S_k}) + \alpha[0, {N_k}^a, {N_k}^b]^{T}\}_{k=1}^S
+\dot{\mathbb{S}} =  \{ \dot{S_k}: \dot{S_k} = \gamma({S_k}) + \alpha[0, {N_k}^a, {N_k}^b]^{T}\}_{k=1}^{S}
 $$
 
 where $\gamma( \cdot )$ converts the intensities of an image from RGB to the Lab color space, ${N_k}^{a} \in \mathcal{N_k}^a$ and ${N_k}^{b} \in \mathcal{N_k}^b$ are the adversarial perturbations in the channels $\textit{a}$ and $\textit{b}$ that are chosen randomly from the set of natural-color ranges, $\mathcal{N_k}^a$ and   $\mathcal{N_k}^b $ in the $\textit{a}$ and $\textit{b}$ channels. 

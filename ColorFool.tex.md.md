@@ -104,7 +104,7 @@ $$
 \dot{\mathbb{S}} =  \{ \dot{S_k}: \dot{S_k} = \gamma({S_k}) + \alpha[0, {N_k}^a, {N_k}^b]^{T}\}_{k=1}^{S}
 $$
 
-where $\gamma( \cdot )$ converts the intensities of an image from RGB to the Lab color space, ${N_k}^{a} \in \mathcal{N_k}^a$ and ${N_k}^{b} \in \mathcal{N_k}^b$ are the adversarial perturbations in the channels $\textit{a}$ and $\textit{b}$ that are chosen randomly from the set of natural-color ranges, $\mathcal{N_k}^a$ and   $\mathcal{N_k}^b $ in the $\textit{a}$ and $\textit{b}$ channels. 
+where $\gamma( \cdot )$ converts the intensities of an image from RGB to the Lab color space, ${N_k}^{a} \in \mathcal{N_k}^a \textrm{and} {N_k}^{b} \in \mathcal{N_k}^b$ are the adversarial perturbations in the channels $\textit{a}$ and $\textit{b}$ that are chosen randomly from the set of natural-color ranges, $\mathcal{N_k}^a$ and   $\mathcal{N_k}^b $ in the $\textit{a}$ and $\textit{b}$ channels. 
 These ranges are defined based on the actual colors, region semantics and prior knowledge about color perception in that region type as shown in the following table:
 ![ColorFool- semantic segmentation](./imgs/semantic_color_range.PNG)
 
